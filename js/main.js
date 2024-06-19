@@ -14,7 +14,7 @@ find.addEventListener('input', function () {
 })
 
 async function getData(city) {
-    var response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=f307e7b30ce7408fb2c110833241906&q=${city}&days=7`)
+    var response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=647fdb804cb6461a9a2123428232302&q=${city}&days=3`)
     
     
     var data = await response.json();
